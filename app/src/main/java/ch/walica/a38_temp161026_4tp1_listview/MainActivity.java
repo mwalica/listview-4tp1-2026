@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         people.add(new Person("Adam"));
         people.add(new Person("Tadeusz"));
 
-        ArrayAdapter<Person> adapter = new ArrayAdapter<>(MainActivity.this, R.layout.list_item, people);
+        //ArrayAdapter<Person> adapter = new ArrayAdapter<>(MainActivity.this, R.layout.list_item, people);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
